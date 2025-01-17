@@ -1,0 +1,53 @@
+.taskSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  width: 50%;
+}
+
+.taskSection header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: bold;
+  span {
+    background: var(--gray-400);
+    border-radius: 8px;
+    color: var(--gray-200);
+    height: fit-content;
+    padding: 0.1rem 0.3rem;
+  }
+}
+
+.taskSection header .taskCounter {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--blue);
+}
+
+.taskSection header .finishedTaskCounter {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--purple);
+}
+
+.taskList {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  img {
+    margin-top: 4rem;
+    max-height: 4rem;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
