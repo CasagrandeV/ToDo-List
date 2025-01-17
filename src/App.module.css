@@ -5,3 +5,14 @@
   margin-top: -1.75rem;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  /* rem em tudo = tudo se redimenciona baseado no tamanho da fonte */
+  html {
+    font-size: 75%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
